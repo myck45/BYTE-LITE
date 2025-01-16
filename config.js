@@ -6,8 +6,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "enter your session",
-    CAPTION: process.env.CAPTION || "*ᴘᴏᴡᴅᴇʀᴇᴅ ʙʏ ᴛᴀʟᴋᴅʀᴏᴠᴇ*",
+    SESSION_ID: process.env.SESSION_ID || "change ID session",
+    CAPTION: process.env.CAPTION || "*jah bless*",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
@@ -18,7 +18,7 @@ module.exports = {
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://i.imgur.com/UfzyhWN.jpeg",
-    ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M BYTE-LITE WHATSAPP BOT 😊♻️",
+    ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M MYCK45 WHATSAPP BOT 😊♻️",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_BAD: process.env.ANTI_BAD || "true",
     PREFIX: process.env.PREFIX || ".",
